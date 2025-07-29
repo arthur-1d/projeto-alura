@@ -2,13 +2,14 @@ body{
     color:bisque;
     background:blueviolet;
     margin: 0px;
+    margin-bottom: 100px;
 }
 
 header{
     border-bottom: solid 2px blue;
     padding:20px;
     font-size:32px;
-    color: blue; 
+    color: black; 
     font-family: "Open Sans", sans-serif;
 }
 
@@ -32,9 +33,7 @@ p{
     font-size: 45px;
 }
 
-img{
-    height: 400px;
-}
+
 
 .categoria-imagens{
     display: flex;
@@ -45,7 +44,19 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 60px;
 }
 
+.categoria-imagens img{
+    opacity:0.5; 
+    height: 200px
+}
 
+.categoria-imagens img:hover{
+    opacity: 1.0;
+    border: 3px solid brown
+}
 
+.categoria h2{
+    color: black
+}

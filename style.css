@@ -29,6 +29,7 @@ header{
     justify-content: center;
     display: flex;
     padding-top: 80px;
+    padding-left: 30px;
 }
 h1{
     font-size: 27px;

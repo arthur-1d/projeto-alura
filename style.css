@@ -25,6 +25,9 @@ header{
     margin-right: 3%;
 }
 
+.video{
+    justify-content: center;
+}
 h1{
     font-size: 27px;
 }

@@ -27,6 +27,8 @@ header{
 
 .video{
     justify-content: center;
+    display: flex;
+    padding-top: 80px;
 }
 h1{
     font-size: 27px;
